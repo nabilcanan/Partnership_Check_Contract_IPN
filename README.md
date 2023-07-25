@@ -1,6 +1,8 @@
 # Excel File Comparator
 
-The Excel File Comparator is a Python program that allows you to compare data between two Excel files and find differences based on a specific column.
+The Excel File Comparator is a Python program that allows you to compare data between two Excel contracts, the one from last week then the one from the current week. 
+Once you select both files you can input the header name you want to compare by. In most cases this will be 'IPN'. Then you can save the data in your new workbook created 
+wherever you'd like. 
 
 ## How It Works
 
