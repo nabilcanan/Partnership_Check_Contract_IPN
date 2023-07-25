@@ -4,6 +4,13 @@ The Excel File Comparator is a Python program that allows you to compare data be
 Once you select both files you can input the header name you want to compare by. In most cases this will be 'IPN'. Then you can save the data in your new workbook created 
 wherever you'd like. 
 
+## Requirements
+
+- Python 3.6 or higher
+- pandas library
+- tkinter library
+- openpyxl library
+
 ## How It Works
 
 1. **Run the Program**: Execute the Python script in your terminal or IDE.
@@ -20,11 +27,6 @@ wherever you'd like.
 
 7. **Exit the Program**: You can close the GUI by clicking the "X" button or using the close button of your window manager.
 
-## Requirements
 
-- Python 3.6 or higher
-- pandas library
-- tkinter library
-- openpyxl library
 
 
