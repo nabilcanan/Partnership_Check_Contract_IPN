@@ -102,7 +102,7 @@ file_label_1 = tk.Label(window, text="Instructions:\n "
 file_label_1.pack(pady=10)
 
 compare_button = tk.Button(window, text="Compare Files", command=compare_files_on_button_click,
-                           font=("Times New Roman", 16, "bold"), bg="green", fg="white", width=20, height=2)
+                           font=("Helvetica", 16, "bold"), bg="green", fg="white", width=20, height=2)
 compare_button.pack(pady=10)
 
 result_frame = tk.Frame(window)
@@ -111,7 +111,7 @@ result_frame.pack(pady=20)
 result_label = tk.Label(window, text="", bg="white", wraplength=600)
 result_label.pack(pady=10)
 
-exit_button = tk.Button(window, text="Exit", command=exit_program, font=("Times New Roman", 16, "bold"),
+exit_button = tk.Button(window, text="Exit", command=exit_program, font=("Helvetica", 16, "bold"),
                         bg="red", fg="white", width=20, height=2)
 exit_button.pack(pady=10)
 
