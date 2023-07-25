@@ -25,9 +25,4 @@ The Excel File Comparator is a Python program that allows you to compare data be
 - tkinter library
 - openpyxl library
 
-## Installation
-
-1. Install Python 3: If you don't have Python 3 installed, download and install it from the official Python website: https://www.python.org/downloads/
-
-2. Install Required Libraries: Open your terminal or command prompt and run the following commands to install the required libraries:
 

@@ -89,13 +89,16 @@ def exit_program():
 
 window = tk.Tk()
 window.title("Excel File Comparator")
-window.geometry("800x500")
+window.geometry("1000x800")
 
 
-title_label = tk.Label(window, text="Excel File Comparator", font=("Times New Roman", 24, "bold"))
+title_label = tk.Label(window, text="Comparing Contracts", font=("Helvetica", 24, "underline"))
 title_label.pack(pady=20)
 
-file_label_1 = tk.Label(window, text="Select last week's contract, then select this week's contract file", bg="white")
+file_label_1 = tk.Label(window, text="Instructions:\n "
+                                     "1. Select Last weeks contract\n"
+                                     "2. Select This weeks contract\n"
+                                     "3. Save the data wherever you'd like", bg="white")
 file_label_1.pack(pady=10)
 
 compare_button = tk.Button(window, text="Compare Files", command=compare_files_on_button_click,
