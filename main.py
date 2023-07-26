@@ -17,7 +17,7 @@ def compare_excel_files(file1_path, file2_path, header_name):
         missing_ipns = ipns_in_last_week - ipns_in_this_week
 
         if not missing_ipns:
-            result_label.config(text="There are no missing IPNs between the two Excel files.")
+            result_label.config(text="There are no missing IPN's between the two Excel files.")
         else:
             # Create a new DataFrame containing the rows corresponding to the missing IPNs
             diff_df = df1[df1[header_name].isin(missing_ipns)]
@@ -88,7 +88,7 @@ def exit_program():
 
 
 window = tk.Tk()
-window.title("Excel File Comparator")
+window.title("Contract Comparison Missing IPN")
 window.geometry("1000x800")
 
 
